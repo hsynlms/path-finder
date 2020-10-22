@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Path Finder",
-  "description": "To find out an HTML element unique CSS selector",
+  "description": "to find out an html element unique css selector",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png",
