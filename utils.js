@@ -27,7 +27,7 @@ function getDistinctClassList (elm) {
 }
 
 const commonNodes = [
-  'div', 'span', 'p', 
+  'div', 'span', 'p',
   'b', 'i', 'u', 'strong', 'em',
   'h2', 'h3'
 ];
@@ -174,7 +174,7 @@ function generateSelector (elm, options, doc) {
   let { isUnique = false } = options;
   const idSelector = createSelector.getElmId(elm);
   const {
-    featureCount = 2, 
+    featureCount = 2,
     minDepth = 1,
     toRoot = false,
     childSelectors = []
@@ -451,7 +451,7 @@ var getFriendlyUriEnd = function getFriendlyUriEnd (uri = '', options = {}) {
   ) {
     return domain + path;
   }
-  
+
   const lastDotIndex = pathEnd.lastIndexOf('.');
   if (// Exclude very short or very long string
     (lastDotIndex === -1 || lastDotIndex > 1) &&
