@@ -1,7 +1,7 @@
 # What is this?
-Path Finder allows you to inspect web page HTML elements and get an HTML element that exist on the page unique CSS selector to clipboard with only one click.
+Path Finder allows you to inspect web page HTML elements and get an HTML element's unique CSS selector that exist on the page to clipboard with only one click.
 
-[theroomjs](https://github.com/hsynlms/theroomjs) is used as the web inpsector.
+[theroomjs](https://github.com/hsynlms/theroomjs) is used as the web inspector.
 
 # How to install?
 
